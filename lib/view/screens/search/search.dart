@@ -5,6 +5,7 @@ import 'package:marche_social_app/constants/app_sizes.dart';
 import 'package:marche_social_app/generated/assets.dart';
 import 'package:marche_social_app/view/widget/common_image_view_widget.dart';
 import 'package:marche_social_app/view/widget/custom_textformfilde.dart';
+import 'package:marche_social_app/view/widget/general_image.dart';
 import 'package:marche_social_app/view/widget/my_text_widget.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -15,7 +16,7 @@ class SearchScreen extends StatefulWidget {
 }
 
 class _SearchScreenState extends State<SearchScreen> {
-  TextEditingController  searchController =TextEditingController();
+  TextEditingController searchController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +24,7 @@ class _SearchScreenState extends State<SearchScreen> {
         child: Padding(
           padding: AppSizes.DEFAULT,
           child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
@@ -89,7 +90,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     ),
                     MyText(
                       text:
-                      'House 05, Street 458, Sector G13/1, Islamabad, Pakistan',
+                          'House 05, Street 458, Sector G13/1, Islamabad, Pakistan',
                       color: KTertiaryColor,
                       size: 12,
                       weight: FontWeight.w300,
@@ -115,54 +116,76 @@ class _SearchScreenState extends State<SearchScreen> {
                     SizedBox(
                       height: 220,
                       child: GridView.count(
-                        crossAxisCount: 2,
-                        crossAxisSpacing: 10.0,
-                        mainAxisSpacing: 10.0,
-                        shrinkWrap: true,
-                        childAspectRatio: 30 / 30,
-                        scrollDirection: Axis.horizontal,
-                        children: [
-                          continerImage(
-                          productImage: Assets.imagesSchoolBag,
-                          productName: 'Bages'),
-                          continerImage(
-                              productImage: Assets.imagesFootwearShoe,
-                              productName: 'Footwear'),
-                          continerImage(
-                              productImage: Assets.imagesWomenDress,
-                              productName: 'Dresses'),
-                          continerImage(
-                              productImage: Assets.imagesWristWatch,
-                              productName: 'Watches'),
-                          continerImage(
-                              productImage: Assets.imagesFashion,
-                              productName: 'Fashion'),
-                          continerImage(
-                              productImage: Assets.imagesJewelry,
-                              productName: 'Jewellery'),
-                          continerImage(
-                              productImage: Assets.imagesTravelBag,
-                              productName: 'Travel'),
-                          continerImage(
-                              productImage: Assets.imagesSportswear,
-                              productName: 'Sportswear'),
-
-                        ]
-
-
-
-                      ),
+                          crossAxisCount: 2,
+                          crossAxisSpacing: 10.0,
+                          mainAxisSpacing: 10.0,
+                          shrinkWrap: true,
+                          childAspectRatio: 30 / 30,
+                          scrollDirection: Axis.horizontal,
+                          children: [
+                            continerImage(
+                                productImage: Assets.imagesSchoolBag,
+                                productName: 'Bages'),
+                            continerImage(
+                                productImage: Assets.imagesFootwearShoe,
+                                productName: 'Footwear'),
+                            continerImage(
+                                productImage: Assets.imagesWomenDress,
+                                productName: 'Dresses'),
+                            continerImage(
+                                productImage: Assets.imagesWristWatch,
+                                productName: 'Watches'),
+                            continerImage(
+                                productImage: Assets.imagesFashion,
+                                productName: 'Fashion'),
+                            continerImage(
+                                productImage: Assets.imagesJewelry,
+                                productName: 'Jewellery'),
+                            continerImage(
+                                productImage: Assets.imagesTravelBag,
+                                productName: 'Travel'),
+                            continerImage(
+                                productImage: Assets.imagesSportswear,
+                                productName: 'Sportswear'),
+                          ]),
                     ),
                   ],
                 ),
               ),
-
+              MyText(
+                text: 'Trending Products',
+                size: 14,
+                weight: FontWeight.w500,
+                fontFamily: AppFonts.SF_PRO_DISPLAY,
+              ),
+              SizedBox(
+                height: 12,
+              ),
+              GeneralProductImage(
+                backgroundColor: kWhiteColor,
+                contRaduis: 10,
+                image: Assets.imagesBlackShoe,
+                imageWidth: 148,
+                imageRaduis: 4,
+                statusContHeight: 20,
+                statusContWidth: 52,
+                statusContbacgColor: KSecondaryColor,
+                statusContRaduis: 2,
+                statusText: 'Top Seller',
+                statusTextColor: kWhiteColor,
+                userReactImage: Assets.imagesHeartImage,
+                userReactImageRaduis: 25,
+                productLength: 3,
+                imageHeight: 134,
+              ),
             ],
           ),
         ),
       ),
     );
   }
+
+  //Container Image Widget
   Widget continerImage(
       {required String productImage, required String productName}) {
     return Column(

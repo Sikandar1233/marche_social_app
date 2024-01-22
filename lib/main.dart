@@ -11,7 +11,6 @@ import 'view/screens/home/product/review/series_product_review2.dart';
 import 'view/screens/home/product/series_product_specs.dart';
 import 'view/screens/search/search.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -32,13 +31,12 @@ class MyApp extends StatelessWidget {
       // initialRoute: AppLinks.splash_screen,
       // getPages: AppRoutes.pages,
       //home: HomeSeriesProductOverViewScreen(),
-     //home: HomeScreen(),
+      //home: HomeScreen(),
       //home: HomeDiscoverScreen(),
       // home: HomeSeriesProductSpecsScreen(),
-         //home:HomeSeriesProductReview1Screen(),
-     // home:HomeSeriesProductReview2Screen() ,
-        home: SearchScreen(),
-
+      //home: HomeSeriesProductReview1Screen(),
+      // home:HomeSeriesProductReview2Screen() ,
+      home: SearchScreen(),
     );
   }
 }

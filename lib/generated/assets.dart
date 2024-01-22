@@ -14,24 +14,30 @@ class Assets {
   static const String imagesCartImage = 'assets/images/cart_image.png';
   static const String imagesCheckBox = 'assets/images/check_box.svg';
   static const String imagesCloseCircle = 'assets/images/close-circle.png';
-  static const String imagesDiscoverSeries = 'assets/images/discover_series.svg';
+  static const String imagesDiscoverSeries =
+      'assets/images/discover_series.svg';
   static const String imagesFashion = 'assets/images/fashion.png';
   static const String imagesFootwearShoe = 'assets/images/footwear_shoe.png';
   static const String imagesFullStarImage = 'assets/images/full_star_image.svg';
-  static const String imagesGreenTickCircle = 'assets/images/green_tick-circle.png';
+  static const String imagesGreenTickCircle =
+      'assets/images/green_tick-circle.png';
   static const String imagesHalfStar = 'assets/images/half_star.svg';
   static const String imagesHeart = 'assets/images/heart.png';
+  static const String imagesHeartImage = 'assets/images/heartImage.png';
   static const String imagesHiImage = 'assets/images/hi_image.svg';
   static const String imagesHome = 'assets/images/home.svg';
   static const String imagesHomeBanner1 = 'assets/images/home_banner1.png';
   static const String imagesHomeSearch = 'assets/images/home_search.svg';
   static const String imagesJewelry = 'assets/images/jewelry.png';
-  static const String imagesLastBlackShoes = 'assets/images/last_black_shoes.png';
+  static const String imagesLastBlackShoes =
+      'assets/images/last_black_shoes.png';
   static const String imagesOneFive = 'assets/images/one_five.png';
   static const String imagesOrangeShoe = 'assets/images/orange_shoe.png';
   static const String imagesPlayButton = 'assets/images/play_button.svg';
-  static const String imagesPopularCatagories = 'assets/images/popular_catagories.svg';
+  static const String imagesPopularCatagories =
+      'assets/images/popular_catagories.svg';
   static const String imagesProductCard = 'assets/images/product_card.svg';
+  static const String imagesProductImg1 = 'assets/images/product_img_1.jpg';
   static const String imagesProductcard = 'assets/images/productcard.png';
   static const String imagesRuningShoes = 'assets/images/runing_shoes.svg';
   static const String imagesSchoolBag = 'assets/images/school-bag.png';
@@ -43,13 +49,16 @@ class Assets {
   static const String imagesShoeSize34 = 'assets/images/shoe_size_34.svg';
   static const String imagesShoeSize35 = 'assets/images/shoe_size_35.svg';
   static const String imagesShoeSize36 = 'assets/images/shoe_size_36.svg';
-  static const String imagesShoesImagesProductSeries = 'assets/images/shoes_images_product_series.svg';
+  static const String imagesShoesImagesProductSeries =
+      'assets/images/shoes_images_product_series.svg';
   static const String imagesShoesSize32 = 'assets/images/shoes_size_32.svg';
   static const String imagesSportswear = 'assets/images/sportswear.png';
   static const String imagesStoreImage = 'assets/images/store_image.png';
-  static const String imagesTextfieldSearchIcon = 'assets/images/textfield_search_icon.svg';
+  static const String imagesTextfieldSearchIcon =
+      'assets/images/textfield_search_icon.svg';
   static const String imagesTravelBag = 'assets/images/travel-bag.png';
-  static const String imagesUserRegisterationOptions = 'assets/images/user_registeration_options.svg';
+  static const String imagesUserRegisterationOptions =
+      'assets/images/user_registeration_options.svg';
   static const String imagesVector = 'assets/images/vector.svg';
   static const String imagesVerticalSlash = 'assets/images/vertical_slash.svg';
   static const String imagesVisableIcon = 'assets/images/visable_icon.svg';
@@ -62,5 +71,4 @@ class Assets {
   static const String imagesWristWatch = 'assets/images/wrist-watch.png';
   static const String imagesYellowShoes = 'assets/images/yellow_shoes.svg';
   static const String imagesYellowShoes1 = 'assets/images/yellow_shoes1.png';
-
 }
