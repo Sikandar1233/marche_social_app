@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:marche_social_app/config/routes/routes.dart';
-import 'package:marche_social_app/config/theme/light_theme.dart';
-import 'package:marche_social_app/view/screens/result/result.dart';
-import 'view/screens/search/search.dart';
-import 'view/screens/search/search_bar.dart';
+
+import 'config/theme/light_theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,17 +15,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      debugShowMaterialGrid: false,
-      title: 'TITLE',
-      theme: lightTheme,
-      themeMode: ThemeMode.light,
-      //initialRoute: AppLinks.splash_screen,
-      // getPages: AppRoutes.pages,
+        debugShowCheckedModeBanner: false,
+        debugShowMaterialGrid: false,
+        title: 'TITLE',
+        theme: lightTheme,
+        themeMode: ThemeMode.light
+        //initialRoute: AppLinks.splash_screen,
+        // getPages: AppRoutes.pages,
 
-      //home: SearchScreen(),
-      //home: SerachBarScreen(),
-      home: ResultScreen(),
-    );
+        );
   }
 }

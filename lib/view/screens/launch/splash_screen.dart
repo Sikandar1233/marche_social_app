@@ -1,11 +1,7 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:marche_social_app/constants/app_colors.dart';
 import 'package:marche_social_app/constants/app_fonts.dart';
 import 'package:marche_social_app/constants/app_sizes.dart';
-import 'package:marche_social_app/view/screens/auth/register/registeration_options.dart';
 import 'package:marche_social_app/view/widget/my_button_widget.dart';
 import 'package:marche_social_app/view/widget/my_text_widget.dart';
 
@@ -24,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Future<void> splashScreenHandler() async {
     Future.delayed(
       Duration(seconds: 2),
-      () => Get.to(UserRegistrationOptionsScreen()),
+      () => (),
     );
   }
 
@@ -54,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Align(
                   alignment: Alignment.center,
                   child: MyText(
-                    text: 'Now your Shopping and Social media at one\nplace',
+                    text: 'Now your Shoppin and Social media at one\nplace',
                     color: kQuarternaryColor,
                     fontFamily: AppFonts.OUTFit_DISPLAY,
                     size: 16,
