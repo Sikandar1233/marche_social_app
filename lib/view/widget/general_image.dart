@@ -96,7 +96,7 @@ class GeneralProductImage extends StatelessWidget {
                                   size: 10,
                                   color: statusTextColor,
                                   weight: FontWeight.w500,
-                                  fontFamily: AppFonts.SF_PRO_DISPLAY,
+                                  fontFamily: AppFonts.OUTFit_DISPLAY,
                                 ),
                               ),
                               Container(

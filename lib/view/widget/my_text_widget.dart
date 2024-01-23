@@ -62,7 +62,7 @@ class MyText extends StatelessWidget {
             color: color,
             fontWeight: weight,
             decoration: decoration,
-            fontFamily: fontFamily ?? AppFonts.SF_PRO_DISPLAY,
+            fontFamily: fontFamily ?? AppFonts.OUTFit_DISPLAY,
             height: lineHeight,
             fontStyle: fontStyle,
             letterSpacing: letterSpacing,

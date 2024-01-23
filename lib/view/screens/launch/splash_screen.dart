@@ -21,17 +21,17 @@ class _SplashScreenState extends State<SplashScreen> {
     splashScreenHandler();
   }
 
-  Future<void> splashScreenHandler() async{
+  Future<void> splashScreenHandler() async {
     Future.delayed(
       Duration(seconds: 2),
-     () => Get.to( UserRegistrationOptionsScreen()),
-   );
+      () => Get.to(UserRegistrationOptionsScreen()),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    backgroundColor: kPrimaryColor,
+      backgroundColor: kPrimaryColor,
       body: SafeArea(
         child: Center(
           child: Padding(
@@ -41,61 +41,69 @@ class _SplashScreenState extends State<SplashScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Spacer(),
-                MyText(text:'Explore the app',
-                  color:KTertiaryColor,
-                  fontFamily:AppFonts.SF_PRO_DISPLAY,
+                MyText(
+                  text: 'Explore the app',
+                  color: KTertiaryColor,
+                  fontFamily: AppFonts.OUTFit_DISPLAY,
                   size: 24,
                   weight: FontWeight.w500,
                 ),
-                SizedBox(height:40,),
+                SizedBox(
+                  height: 40,
+                ),
                 Align(
                   alignment: Alignment.center,
-                  child: MyText(text:'Now your Shopping and Social media at one\nplace',
-                    color:kQuarternaryColor,
-                    fontFamily:AppFonts.SF_PRO_DISPLAY,
-                    size:16,
+                  child: MyText(
+                    text: 'Now your Shopping and Social media at one\nplace',
+                    color: kQuarternaryColor,
+                    fontFamily: AppFonts.OUTFit_DISPLAY,
+                    size: 16,
                     weight: FontWeight.w300,
                   ),
                 ),
-                SizedBox(height:40,),
-                MyButton(
-                  onTap:(){} ,
-                  buttonText:'Login',
-                  backgroundColor:KSecondaryColor,
-                  fontColor:kWhiteColor,
-                  fontSize:16,
-                  fontWeight:FontWeight.w500,
-                  radius:50,
+                SizedBox(
+                  height: 40,
                 ),
-                SizedBox(height: 20,),
                 MyButton(
-                  onTap:(){} ,
-                  buttonText:'Register',
-                  backgroundColor:kQuarternaryColor,
-                  fontColor:KTertiaryColor,
-                  fontSize:16,
-                  fontWeight:FontWeight.w500,
-                  radius:50,
+                  onTap: () {},
+                  buttonText: 'Login',
+                  backgroundColor: KSecondaryColor,
+                  fontColor: kWhiteColor,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                  radius: 50,
                 ),
-                SizedBox(height: 32,),
+                SizedBox(
+                  height: 20,
+                ),
+                MyButton(
+                  onTap: () {},
+                  buttonText: 'Register',
+                  backgroundColor: kQuarternaryColor,
+                  fontColor: KTertiaryColor,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                  radius: 50,
+                ),
+                SizedBox(
+                  height: 32,
+                ),
                 MyText(
-                    text: 'Continue as Guest',
-                    onTap: (){},
-                    fontFamily: AppFonts.SF_PRO_DISPLAY,
-                    size:16,
-                  color:kBlueColor,
-                  weight:FontWeight.w500,
-
+                  text: 'Continue as Guest',
+                  onTap: () {},
+                  fontFamily: AppFonts.OUTFit_DISPLAY,
+                  size: 16,
+                  color: kBlueColor,
+                  weight: FontWeight.w500,
                 ),
-                SizedBox(height: 90,),
-
-
+                SizedBox(
+                  height: 90,
+                ),
               ],
             ),
           ),
         ),
       ),
-
     );
   }
 }

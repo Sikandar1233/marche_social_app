@@ -4,7 +4,7 @@ import 'package:marche_social_app/constants/app_fonts.dart';
 
 final ThemeData lightTheme = ThemeData(
   scaffoldBackgroundColor: kPrimaryColor,
-  fontFamily: AppFonts.SF_PRO_DISPLAY,
+  fontFamily: AppFonts.OUTFit_DISPLAY,
   appBarTheme: AppBarTheme(
     elevation: 0,
     backgroundColor: kPrimaryColor,

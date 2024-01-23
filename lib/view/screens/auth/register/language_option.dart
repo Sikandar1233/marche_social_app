@@ -3,7 +3,7 @@ import 'package:marche_social_app/constants/app_colors.dart';
 import 'package:marche_social_app/constants/app_sizes.dart';
 import 'package:marche_social_app/generated/assets.dart';
 import 'package:marche_social_app/view/widget/common_image_view_widget.dart';
-import 'package:marche_social_app/view/widget/custom_textformfilde.dart';
+import 'package:marche_social_app/view/widget/custom_textformfield.dart';
 import 'package:marche_social_app/view/widget/my_button_widget.dart';
 import 'package:marche_social_app/view/widget/my_text_widget.dart';
 

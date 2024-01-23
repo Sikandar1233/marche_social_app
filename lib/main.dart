@@ -2,14 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:marche_social_app/config/routes/routes.dart';
 import 'package:marche_social_app/config/theme/light_theme.dart';
-import 'package:marche_social_app/view/screens/home/home.dart';
-import 'package:marche_social_app/view/screens/home/product/series_product_overview.dart';
-
-import 'view/screens/home/discover/discover.dart';
-import 'view/screens/home/product/review/series_product_review1.dart';
-import 'view/screens/home/product/review/series_product_review2.dart';
-import 'view/screens/home/product/series_product_specs.dart';
+import 'package:marche_social_app/view/screens/result/result.dart';
 import 'view/screens/search/search.dart';
+import 'view/screens/search/search_bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,15 +23,12 @@ class MyApp extends StatelessWidget {
       title: 'TITLE',
       theme: lightTheme,
       themeMode: ThemeMode.light,
-      // initialRoute: AppLinks.splash_screen,
+      //initialRoute: AppLinks.splash_screen,
       // getPages: AppRoutes.pages,
-      //home: HomeSeriesProductOverViewScreen(),
-      //home: HomeScreen(),
-      //home: HomeDiscoverScreen(),
-      // home: HomeSeriesProductSpecsScreen(),
-      //home: HomeSeriesProductReview1Screen(),
-      // home:HomeSeriesProductReview2Screen() ,
-      home: SearchScreen(),
+
+      //home: SearchScreen(),
+      //home: SerachBarScreen(),
+      home: ResultScreen(),
     );
   }
 }

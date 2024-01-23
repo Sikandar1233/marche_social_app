@@ -5,6 +5,17 @@ class Assets {
   static const String assetsImagesWristWatch = 'assets/images/wrist-watch.svg';
   static const String assetsNotificationBing = 'assets/notification_bing.svg';
   static const String assetsProductCard1 = 'assets/product_card1.svg';
+  static const String fontsOutfitBlack = 'assets/fonts/Outfit-Black.ttf';
+  static const String fontsOutfitBold = 'assets/fonts/Outfit-Bold.ttf';
+  static const String fontsOutfitExtraBold =
+      'assets/fonts/Outfit-ExtraBold.ttf';
+  static const String fontsOutfitExtraLight =
+      'assets/fonts/Outfit-ExtraLight.ttf';
+  static const String fontsOutfitLight = 'assets/fonts/Outfit-Light.ttf';
+  static const String fontsOutfitMedium = 'assets/fonts/Outfit-Medium.ttf';
+  static const String fontsOutfitRegular = 'assets/fonts/Outfit-Regular.ttf';
+  static const String fontsOutfitSemiBold = 'assets/fonts/Outfit-SemiBold.ttf';
+  static const String fontsOutfitThin = 'assets/fonts/Outfit-Thin.ttf';
   static const String imagesAddressImage = 'assets/images/address_image.svg';
   static const String imagesBack = 'assets/images/back.svg';
   static const String imagesBags = 'assets/images/bags.svg';
@@ -14,6 +25,7 @@ class Assets {
   static const String imagesCartImage = 'assets/images/cart_image.png';
   static const String imagesCheckBox = 'assets/images/check_box.svg';
   static const String imagesCloseCircle = 'assets/images/close-circle.png';
+  static const String imagesComfirtshirt = 'assets/images/comfirtshirt.png';
   static const String imagesDiscoverSeries =
       'assets/images/discover_series.svg';
   static const String imagesFashion = 'assets/images/fashion.png';

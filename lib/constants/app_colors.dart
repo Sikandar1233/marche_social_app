@@ -12,3 +12,5 @@ const kGreenColor = Color(0xff0CE27D);
 const kPinkColor = Color(0xffFF634726);
 const kDeepGrayColor = Color(0xffD5D5D5);
 const klightWhiteColor = Color(0xffFFFFFF);
+const kYellowColor = Color(0xffFFC107);
+const kGrayColor = Colors.grey;

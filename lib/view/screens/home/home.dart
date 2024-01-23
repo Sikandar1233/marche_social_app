@@ -4,7 +4,7 @@ import 'package:marche_social_app/constants/app_fonts.dart';
 import 'package:marche_social_app/constants/app_sizes.dart';
 import 'package:marche_social_app/generated/assets.dart';
 import 'package:marche_social_app/view/widget/common_image_view_widget.dart';
-import 'package:marche_social_app/view/widget/custom_textformfilde.dart';
+import 'package:marche_social_app/view/widget/custom_textformfield.dart';
 import 'package:marche_social_app/view/widget/my_button_widget.dart';
 import 'package:marche_social_app/view/widget/my_text_widget.dart';
 
@@ -197,7 +197,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           size: 14,
                           weight: FontWeight.w500,
                           color: KTertiaryColor,
-                          fontFamily: AppFonts.SF_PRO_DISPLAY,
+                          fontFamily: AppFonts.OUTFit_DISPLAY,
                         ),
                         SizedBox(
                           height: 20,
@@ -367,7 +367,7 @@ class _HomeScreenState extends State<HomeScreen> {
               color: KTertiaryColor,
               size: 12,
               weight: FontWeight.w400,
-              fontFamily: AppFonts.SF_PRO_DISPLAY,
+              fontFamily: AppFonts.OUTFit_DISPLAY,
             ),
           ),
         ],
@@ -397,7 +397,7 @@ class _HomeScreenState extends State<HomeScreen> {
             color: KTertiaryColor,
             size: 14,
             weight: FontWeight.w500,
-            fontFamily: AppFonts.SF_PRO_DISPLAY,
+            fontFamily: AppFonts.OUTFit_DISPLAY,
           ),
           SizedBox(
             height: 20,
@@ -441,7 +441,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             text: productDescription,
                             weight: FontWeight.w500,
                             color: KTertiaryColor,
-                            fontFamily: AppFonts.SF_PRO_DISPLAY,
+                            fontFamily: AppFonts.OUTFit_DISPLAY,
                             size: 16,
                           )),
                       SizedBox(
@@ -457,7 +457,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             text: '$rateNumber',
                             weight: FontWeight.w300,
                             color: KTertiaryColor,
-                            fontFamily: AppFonts.SF_PRO_DISPLAY,
+                            fontFamily: AppFonts.OUTFit_DISPLAY,
                             size: 16,
                           ),
                           SizedBox(
@@ -481,7 +481,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               text: soldNumber,
                               weight: FontWeight.w300,
                               color: kQuarternaryColor,
-                              fontFamily: AppFonts.SF_PRO_DISPLAY,
+                              fontFamily: AppFonts.OUTFit_DISPLAY,
                               size: 14,
                             ),
                           ),
@@ -494,7 +494,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         text: '\$${productPrice}',
                         weight: FontWeight.w500,
                         color: KSecondaryColor,
-                        fontFamily: AppFonts.SF_PRO_DISPLAY,
+                        fontFamily: AppFonts.OUTFit_DISPLAY,
                         size: 24,
                       ),
                     ],
