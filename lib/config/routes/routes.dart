@@ -7,7 +7,7 @@ import 'package:marche_social_app/view/screens/auth/register/language_option.dar
 import 'package:marche_social_app/view/screens/auth/register/otp.dart';
 import 'package:marche_social_app/view/screens/auth/register/otp_code_verification.dart';
 import 'package:marche_social_app/view/screens/auth/register/register_with_phone-number.dart';
-import 'package:marche_social_app/view/screens/auth/register/registeration_options.dart';
+import 'package:marche_social_app/view/screens/auth/register/registration_options.dart';
 import 'package:marche_social_app/view/screens/auth/register/signUp.dart';
 import 'package:marche_social_app/view/screens/home/home.dart';
 import 'package:marche_social_app/view/screens/launch/splash_screen.dart';
@@ -18,50 +18,50 @@ class AppRoutes {
       name: AppLinks.splash_screen,
       page: () => SplashScreen(),
     ),
-    GetPage(
+     GetPage(
       name: AppLinks.user_registration_options_screen,
       page: () => UserRegistrationOptionsScreen(),
-    ),
-    GetPage(
-      name: AppLinks.signup_screen,
-      page: () =>SignUpScreen(),
-    ),
-    GetPage(
-      name: AppLinks.phone_number_screen,
-      page: () =>PhoneNumberScreen(),
-    ),
-    GetPage(
-      name: AppLinks.otp_screen,
-      page: () =>OtpScreen(),
-    ),
-    GetPage(
-      name: AppLinks.otp_screen,
-      page: () =>OtpCodeverficationScreen(),
-    ),
-    GetPage(
-      name: AppLinks.otp_screen,
-      page: () =>LanguageScreen(),
-    ),
-    GetPage(
-      name: AppLinks.login_screen,
-      page: () =>LoginScreen(),
-    ),
-    GetPage(
-      name: AppLinks.login_with_phone_num_screen,
-      page: () =>LoginwithPhoneNumberScreen(),
-    ),
-    GetPage(
-      name: AppLinks.login_phone_otp_screen,
-      page: () =>LoginOtpScreen(),
-    ),
-    GetPage(
-      name: AppLinks.login_otp_verification_code_screen,
-      page: () =>LoginOtpCodeverficationScreen(),
-    ),
-    GetPage(
-      name: AppLinks.login_otp_verification_code_screen,
-      page: () => HomeScreen(),
-    ),
+     ),
+    // GetPage(
+    //   name: AppLinks.signup_screen,
+    //   page: () =>SignUpScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.phone_number_screen,
+    //   page: () =>PhoneNumberScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.otp_screen,
+    //   page: () =>OtpScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.otp_screen,
+    //   page: () =>OtpCodeverficationScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.otp_screen,
+    //   page: () =>LanguageScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.login_screen,
+    //   page: () =>LoginScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.login_with_phone_num_screen,
+    //   page: () =>LoginwithPhoneNumberScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.login_phone_otp_screen,
+    //   page: () =>LoginOtpScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.login_otp_verification_code_screen,
+    //   page: () =>LoginOtpCodeverficationScreen(),
+    // ),
+    // GetPage(
+    //   name: AppLinks.login_otp_verification_code_screen,
+    //   page: () => HomeScreen(),
+    // ),
 
 
   ];

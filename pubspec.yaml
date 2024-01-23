@@ -36,6 +36,12 @@ flutter:
 
 
   uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - lib/constants/app_images/
+
 
 like this:
   assets:

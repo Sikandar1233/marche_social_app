@@ -1,8 +1,6 @@
 class Assets {
   Assets._();
   
-  
 
-  
 }
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:marche_social_app/constants/app_colors.dart';
 import 'package:marche_social_app/constants/app_fonts.dart';
 import 'package:marche_social_app/constants/app_sizes.dart';
+import 'package:marche_social_app/view/screens/auth/register/registration_options.dart';
 import 'package:marche_social_app/view/widget/my_button_widget.dart';
 import 'package:marche_social_app/view/widget/my_text_widget.dart';
 
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Future<void> splashScreenHandler() async {
     Future.delayed(
       Duration(seconds: 2),
-      () => (),
+      () => UserRegistrationOptionsScreen()
     );
   }
 
@@ -34,7 +35,6 @@ class _SplashScreenState extends State<SplashScreen> {
             padding: AppSizes.DEFAULT,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Spacer(),
                 MyText(
@@ -44,13 +44,11 @@ class _SplashScreenState extends State<SplashScreen> {
                   size: 24,
                   weight: FontWeight.w500,
                 ),
-                SizedBox(
-                  height: 40,
-                ),
+                SizedBox(height: 50,),
                 Align(
                   alignment: Alignment.center,
                   child: MyText(
-                    text: 'Now your Shoppin and Social media at one\nplace',
+                    text: 'Now your Shopping and Social media at one\n place',
                     color: kQuarternaryColor,
                     fontFamily: AppFonts.OUTFit_DISPLAY,
                     size: 16,
@@ -58,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 60,
                 ),
                 MyButton(
                   onTap: () {},
@@ -70,19 +68,19 @@ class _SplashScreenState extends State<SplashScreen> {
                   radius: 50,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 25,
                 ),
                 MyButton(
                   onTap: () {},
                   buttonText: 'Register',
-                  backgroundColor: kQuarternaryColor,
+                  backgroundColor: kWhiteColor,
                   fontColor: KTertiaryColor,
                   fontSize: 16,
                   fontWeight: FontWeight.w500,
                   radius: 50,
                 ),
                 SizedBox(
-                  height: 32,
+                  height: 35,
                 ),
                 MyText(
                   text: 'Continue as Guest',

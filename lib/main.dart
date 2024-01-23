@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:marche_social_app/config/routes/routes.dart';
+import 'package:marche_social_app/view/screens/auth/register/signUp.dart';
 
 import 'config/theme/light_theme.dart';
+import 'view/screens/auth/register/registration_options.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,9 +22,10 @@ class MyApp extends StatelessWidget {
         debugShowMaterialGrid: false,
         title: 'TITLE',
         theme: lightTheme,
-        themeMode: ThemeMode.light
+        themeMode: ThemeMode.light,
         //initialRoute: AppLinks.splash_screen,
-        // getPages: AppRoutes.pages,
+         //getPages: AppRoutes.pages,
+       home: SignUpScreen(),
 
         );
   }

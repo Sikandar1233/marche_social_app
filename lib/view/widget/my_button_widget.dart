@@ -8,7 +8,7 @@ class MyButton extends StatelessWidget {
   MyButton({
     required this.onTap,
     required this.buttonText,
-    this.height = 48,
+    this.height = 56,
     this.backgroundColor = KSecondaryColor,
     this.fontColor = kWhiteColor,
     this.fontSize = 16,
