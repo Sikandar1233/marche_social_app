@@ -54,6 +54,7 @@ class Product extends StatelessWidget {
           ),
         ],
       ),
+      contentPadding: EdgeInsets.all(0),
       title: MyText(
         text: titleText,
         size: 14,
@@ -62,26 +63,32 @@ class Product extends StatelessWidget {
       ),
       subtitle: Row(
         children: [
-          StarRating(
-            rating: rating,
+          Expanded(
+            child: StarRating(
+              rating: rating,
+            ),
           ),
-          MyText(
-            text: '$rating',
-            size: 12,
-            color: KSecondaryColor,
-            weight: FontWeight.w300,
+          Expanded(
+            child: MyText(
+              text: '$rating',
+              size: 12,
+              color: KSecondaryColor,
+              weight: FontWeight.w300,
+            ),
           ),
-          MyText(
-            text: '${((numberSold))}',
-            size: 12,
-            color: kQuarternaryColor,
-            weight: FontWeight.w300,
+          Expanded(
+            child: MyText(
+              text: "(" + numberSold.toString() + ")",
+              size: 12,
+              color: kQuarternaryColor,
+              weight: FontWeight.w300,
+            ),
           ),
         ],
       ),
       trailing: SizedBox(
-        height: 100,
-        width: 120,
+        height: 70,
+        width: 100,
         child: Column(
           children: [
             CommonImageView(

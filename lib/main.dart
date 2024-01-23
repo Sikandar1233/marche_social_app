@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:marche_social_app/config/routes/routes.dart';
 import 'package:marche_social_app/config/theme/light_theme.dart';
+import 'package:marche_social_app/view/screens/bottom_nav_bar/bottom_nav_bar.dart';
+import 'package:marche_social_app/view/screens/checkout_firstime/guest_details.dart';
+import 'package:marche_social_app/view/screens/home/home.dart';
 import 'package:marche_social_app/view/screens/result/result.dart';
 import 'view/screens/search/search.dart';
 import 'view/screens/search/search_bar.dart';
@@ -28,7 +31,7 @@ class MyApp extends StatelessWidget {
 
       //home: SearchScreen(),
       //home: SerachBarScreen(),
-      home: ResultScreen(),
+      home: GuestDetails(),
     );
   }
 }

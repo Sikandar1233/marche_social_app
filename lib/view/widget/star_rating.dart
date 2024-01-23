@@ -6,7 +6,7 @@ class StarRating extends StatelessWidget {
   final int starCount;
   final double size;
 
-  StarRating({required this.rating, this.starCount = 5, this.size = 20.0});
+  StarRating({required this.rating, this.starCount = 5, this.size = 12.0});
 
   @override
   Widget build(BuildContext context) {

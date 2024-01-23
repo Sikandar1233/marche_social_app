@@ -257,38 +257,6 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ),
-        Container(
-          alignment: Alignment.topLeft,
-          height: size.height * 0.150,
-          width: size.width * 1,
-          padding: EdgeInsets.all(5),
-          decoration: BoxDecoration(
-            color: kWhiteColor,
-            borderRadius: BorderRadius.circular(30),
-          ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              iconLabel(
-                  iconImage: Assets.imagesHome, label: 'Home', onTap: () {}),
-              iconLabel(
-                iconImage: Assets.imagesHomeSearch,
-                label: 'Discover',
-                onTap: () {},
-              ),
-              iconLabel(
-                  iconImage: Assets.imagesPlayButton,
-                  label: 'Scroll',
-                  onTap: () {}),
-              iconLabel(
-                  iconImage: Assets.assetsNotificationBing,
-                  label: 'Notifications',
-                  onTap: () {}),
-              iconLabel(
-                  iconImage: Assets.imagesCarry, label: 'Cart', onTap: () {}),
-            ],
-          ),
-        ),
       ]),
     );
   }
